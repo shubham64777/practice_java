@@ -8,7 +8,7 @@ public class BR {
 		InputStreamReader in = new InputStreamReader(System.in);
 		BufferedReader bf = new BufferedReader(in);
 		System.out.print("enter the number of your choice:");
-		int n = Integer.parseInt(bf.readLine());
+		int n = Integer.parseInt(bf.readLine());//always takes string as an input
 		System.out.printf("number that you entered is %d", n);
 		bf.close();
 	}
